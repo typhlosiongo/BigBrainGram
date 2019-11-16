@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD45E2E9237FC6F900818848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E2E8237FC6F900818848 /* AppDelegate.swift */; };
+		CD45E2EB237FC6F900818848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E2EA237FC6F900818848 /* SceneDelegate.swift */; };
+		CD45E2ED237FC6F900818848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E2EC237FC6F900818848 /* ViewController.swift */; };
+		CD45E2F0237FC6F900818848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD45E2EE237FC6F900818848 /* Main.storyboard */; };
+		CD45E2F2237FC6FA00818848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD45E2F1237FC6FA00818848 /* Assets.xcassets */; };
+		CD45E2F5237FC6FA00818848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD45E2F3237FC6FA00818848 /* LaunchScreen.storyboard */; };
+		CD45E300237FC6FA00818848 /* BigBrainGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E2FF237FC6FA00818848 /* BigBrainGramTests.swift */; };
+		CD45E30B237FC6FA00818848 /* BigBrainGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E30A237FC6FA00818848 /* BigBrainGramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD45E2FC237FC6FA00818848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD45E2DD237FC6F900818848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD45E2E4237FC6F900818848;
+			remoteInfo = BigBrainGram;
+		};
+		CD45E307237FC6FA00818848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD45E2DD237FC6F900818848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD45E2E4237FC6F900818848;
+			remoteInfo = BigBrainGram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD45E2E5237FC6F900818848 /* BigBrainGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBrainGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD45E2E8237FC6F900818848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD45E2EA237FC6F900818848 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD45E2EC237FC6F900818848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD45E2EF237FC6F900818848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD45E2F1237FC6FA00818848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD45E2F4237FC6FA00818848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD45E2F6237FC6FA00818848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD45E2FB237FC6FA00818848 /* BigBrainGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigBrainGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD45E2FF237FC6FA00818848 /* BigBrainGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBrainGramTests.swift; sourceTree = "<group>"; };
+		CD45E301237FC6FA00818848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD45E306237FC6FA00818848 /* BigBrainGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigBrainGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD45E30A237FC6FA00818848 /* BigBrainGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBrainGramUITests.swift; sourceTree = "<group>"; };
+		CD45E30C237FC6FA00818848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD45E2E2237FC6F900818848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD45E2F8237FC6FA00818848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD45E303237FC6FA00818848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD45E2DC237FC6F900818848 = {
+			isa = PBXGroup;
+			children = (
+				CD45E2E7237FC6F900818848 /* BigBrainGram */,
+				CD45E2FE237FC6FA00818848 /* BigBrainGramTests */,
+				CD45E309237FC6FA00818848 /* BigBrainGramUITests */,
+				CD45E2E6237FC6F900818848 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD45E2E6237FC6F900818848 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD45E2E5237FC6F900818848 /* BigBrainGram.app */,
+				CD45E2FB237FC6FA00818848 /* BigBrainGramTests.xctest */,
+				CD45E306237FC6FA00818848 /* BigBrainGramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD45E2E7237FC6F900818848 /* BigBrainGram */ = {
+			isa = PBXGroup;
+			children = (
+				CD45E2E8237FC6F900818848 /* AppDelegate.swift */,
+				CD45E2EA237FC6F900818848 /* SceneDelegate.swift */,
+				CD45E2EC237FC6F900818848 /* ViewController.swift */,
+				CD45E2EE237FC6F900818848 /* Main.storyboard */,
+				CD45E2F1237FC6FA00818848 /* Assets.xcassets */,
+				CD45E2F3237FC6FA00818848 /* LaunchScreen.storyboard */,
+				CD45E2F6237FC6FA00818848 /* Info.plist */,
+			);
+			path = BigBrainGram;
+			sourceTree = "<group>";
+		};
+		CD45E2FE237FC6FA00818848 /* BigBrainGramTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD45E2FF237FC6FA00818848 /* BigBrainGramTests.swift */,
+				CD45E301237FC6FA00818848 /* Info.plist */,
+			);
+			path = BigBrainGramTests;
+			sourceTree = "<group>";
+		};
+		CD45E309237FC6FA00818848 /* BigBrainGramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD45E30A237FC6FA00818848 /* BigBrainGramUITests.swift */,
+				CD45E30C237FC6FA00818848 /* Info.plist */,
+			);
+			path = BigBrainGramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD45E2E4237FC6F900818848 /* BigBrainGram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD45E30F237FC6FA00818848 /* Build configuration list for PBXNativeTarget "BigBrainGram" */;
+			buildPhases = (
+				CD45E2E1237FC6F900818848 /* Sources */,
+				CD45E2E2237FC6F900818848 /* Frameworks */,
+				CD45E2E3237FC6F900818848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigBrainGram;
+			productName = BigBrainGram;
+			productReference = CD45E2E5237FC6F900818848 /* BigBrainGram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD45E2FA237FC6FA00818848 /* BigBrainGramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD45E312237FC6FA00818848 /* Build configuration list for PBXNativeTarget "BigBrainGramTests" */;
+			buildPhases = (
+				CD45E2F7237FC6FA00818848 /* Sources */,
+				CD45E2F8237FC6FA00818848 /* Frameworks */,
+				CD45E2F9237FC6FA00818848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD45E2FD237FC6FA00818848 /* PBXTargetDependency */,
+			);
+			name = BigBrainGramTests;
+			productName = BigBrainGramTests;
+			productReference = CD45E2FB237FC6FA00818848 /* BigBrainGramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD45E305237FC6FA00818848 /* BigBrainGramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD45E315237FC6FA00818848 /* Build configuration list for PBXNativeTarget "BigBrainGramUITests" */;
+			buildPhases = (
+				CD45E302237FC6FA00818848 /* Sources */,
+				CD45E303237FC6FA00818848 /* Frameworks */,
+				CD45E304237FC6FA00818848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD45E308237FC6FA00818848 /* PBXTargetDependency */,
+			);
+			name = BigBrainGramUITests;
+			productName = BigBrainGramUITests;
+			productReference = CD45E306237FC6FA00818848 /* BigBrainGramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD45E2DD237FC6F900818848 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = oscar.ramirez.lucero;
+				TargetAttributes = {
+					CD45E2E4237FC6F900818848 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					CD45E2FA237FC6FA00818848 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = CD45E2E4237FC6F900818848;
+					};
+					CD45E305237FC6FA00818848 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = CD45E2E4237FC6F900818848;
+					};
+				};
+			};
+			buildConfigurationList = CD45E2E0237FC6F900818848 /* Build configuration list for PBXProject "BigBrainGram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD45E2DC237FC6F900818848;
+			productRefGroup = CD45E2E6237FC6F900818848 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD45E2E4237FC6F900818848 /* BigBrainGram */,
+				CD45E2FA237FC6FA00818848 /* BigBrainGramTests */,
+				CD45E305237FC6FA00818848 /* BigBrainGramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD45E2E3237FC6F900818848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45E2F5237FC6FA00818848 /* LaunchScreen.storyboard in Resources */,
+				CD45E2F2237FC6FA00818848 /* Assets.xcassets in Resources */,
+				CD45E2F0237FC6F900818848 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD45E2F9237FC6FA00818848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD45E304237FC6FA00818848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD45E2E1237FC6F900818848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45E2ED237FC6F900818848 /* ViewController.swift in Sources */,
+				CD45E2E9237FC6F900818848 /* AppDelegate.swift in Sources */,
+				CD45E2EB237FC6F900818848 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD45E2F7237FC6FA00818848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45E300237FC6FA00818848 /* BigBrainGramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD45E302237FC6FA00818848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45E30B237FC6FA00818848 /* BigBrainGramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD45E2FD237FC6FA00818848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD45E2E4237FC6F900818848 /* BigBrainGram */;
+			targetProxy = CD45E2FC237FC6FA00818848 /* PBXContainerItemProxy */;
+		};
+		CD45E308237FC6FA00818848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD45E2E4237FC6F900818848 /* BigBrainGram */;
+			targetProxy = CD45E307237FC6FA00818848 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD45E2EE237FC6F900818848 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD45E2EF237FC6F900818848 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD45E2F3237FC6FA00818848 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD45E2F4237FC6FA00818848 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD45E30D237FC6FA00818848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD45E30E237FC6FA00818848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD45E310237FC6FA00818848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigBrainGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oramirezlucero.BigBrainGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD45E311237FC6FA00818848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigBrainGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oramirezlucero.BigBrainGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD45E313237FC6FA00818848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigBrainGramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oramirezlucero.BigBrainGramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigBrainGram.app/BigBrainGram";
+			};
+			name = Debug;
+		};
+		CD45E314237FC6FA00818848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigBrainGramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oramirezlucero.BigBrainGramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigBrainGram.app/BigBrainGram";
+			};
+			name = Release;
+		};
+		CD45E316237FC6FA00818848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigBrainGramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oramirezlucero.BigBrainGramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BigBrainGram;
+			};
+			name = Debug;
+		};
+		CD45E317237FC6FA00818848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigBrainGramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = oramirezlucero.BigBrainGramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BigBrainGram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD45E2E0237FC6F900818848 /* Build configuration list for PBXProject "BigBrainGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD45E30D237FC6FA00818848 /* Debug */,
+				CD45E30E237FC6FA00818848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD45E30F237FC6FA00818848 /* Build configuration list for PBXNativeTarget "BigBrainGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD45E310237FC6FA00818848 /* Debug */,
+				CD45E311237FC6FA00818848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD45E312237FC6FA00818848 /* Build configuration list for PBXNativeTarget "BigBrainGramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD45E313237FC6FA00818848 /* Debug */,
+				CD45E314237FC6FA00818848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD45E315237FC6FA00818848 /* Build configuration list for PBXNativeTarget "BigBrainGramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD45E316237FC6FA00818848 /* Debug */,
+				CD45E317237FC6FA00818848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD45E2DD237FC6F900818848 /* Project object */;
+}
