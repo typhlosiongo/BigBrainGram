@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C00457C08AD4F9F0540D092 /* Pods_BigBrainGramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8048B6F77B354260B031D3B9 /* Pods_BigBrainGramTests.framework */; };
+		CD18D9B92382674C0060E878 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18D9B82382674C0060E878 /* PostCell.swift */; };
+		CD42D6AD237FCC3400F05203 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42D6AC237FCC3400F05203 /* LoginViewController.swift */; };
+		CD42D6AF237FCC3F00F05203 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42D6AE237FCC3F00F05203 /* FeedViewController.swift */; };
 		CD45E2E9237FC6F900818848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E2E8237FC6F900818848 /* AppDelegate.swift */; };
 		CD45E2EB237FC6F900818848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E2EA237FC6F900818848 /* SceneDelegate.swift */; };
-		CD45E2ED237FC6F900818848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E2EC237FC6F900818848 /* ViewController.swift */; };
 		CD45E2F0237FC6F900818848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD45E2EE237FC6F900818848 /* Main.storyboard */; };
 		CD45E2F2237FC6FA00818848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD45E2F1237FC6FA00818848 /* Assets.xcassets */; };
 		CD45E2F5237FC6FA00818848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD45E2F3237FC6FA00818848 /* LaunchScreen.storyboard */; };
 		CD45E300237FC6FA00818848 /* BigBrainGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E2FF237FC6FA00818848 /* BigBrainGramTests.swift */; };
 		CD45E30B237FC6FA00818848 /* BigBrainGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E30A237FC6FA00818848 /* BigBrainGramUITests.swift */; };
+		CD8C5FA2237FDF0D00719AF6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8C5FA1237FDF0D00719AF6 /* CameraViewController.swift */; };
+		EDF57602A09991D046F5DC06 /* Pods_BigBrainGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B95E88D3D1467E853C23F0 /* Pods_BigBrainGram.framework */; };
+		F527FE09B27BAB58CA32FAD7 /* Pods_BigBrainGram_BigBrainGramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF036AF1431FE8C95A1E286 /* Pods_BigBrainGram_BigBrainGramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0980FC226198BF3154B41A8A /* Pods-BigBrainGramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigBrainGramTests.debug.xcconfig"; path = "Target Support Files/Pods-BigBrainGramTests/Pods-BigBrainGramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		130009857C9A110E3EBF5689 /* Pods-BigBrainGram-BigBrainGramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigBrainGram-BigBrainGramUITests.debug.xcconfig"; path = "Target Support Files/Pods-BigBrainGram-BigBrainGramUITests/Pods-BigBrainGram-BigBrainGramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3648C8538A33D55593ED3308 /* Pods-BigBrainGramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigBrainGramTests.release.xcconfig"; path = "Target Support Files/Pods-BigBrainGramTests/Pods-BigBrainGramTests.release.xcconfig"; sourceTree = "<group>"; };
+		61B95E88D3D1467E853C23F0 /* Pods_BigBrainGram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigBrainGram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8048B6F77B354260B031D3B9 /* Pods_BigBrainGramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigBrainGramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF036AF1431FE8C95A1E286 /* Pods_BigBrainGram_BigBrainGramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigBrainGram_BigBrainGramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EEE9A6096536742F6299B6 /* Pods-BigBrainGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigBrainGram.debug.xcconfig"; path = "Target Support Files/Pods-BigBrainGram/Pods-BigBrainGram.debug.xcconfig"; sourceTree = "<group>"; };
+		CD18D9B82382674C0060E878 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CD42D6AC237FCC3400F05203 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CD42D6AE237FCC3F00F05203 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CD45E2E5237FC6F900818848 /* BigBrainGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBrainGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD45E2E8237FC6F900818848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD45E2EA237FC6F900818848 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD45E2EC237FC6F900818848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD45E2EF237FC6F900818848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD45E2F1237FC6FA00818848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD45E2F4237FC6FA00818848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		CD45E306237FC6FA00818848 /* BigBrainGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigBrainGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD45E30A237FC6FA00818848 /* BigBrainGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBrainGramUITests.swift; sourceTree = "<group>"; };
 		CD45E30C237FC6FA00818848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8C5FA1237FDF0D00719AF6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D9B48F633A8A8F00D6249E39 /* Pods-BigBrainGram-BigBrainGramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigBrainGram-BigBrainGramUITests.release.xcconfig"; path = "Target Support Files/Pods-BigBrainGram-BigBrainGramUITests/Pods-BigBrainGram-BigBrainGramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E119BD8D5799D2E2E0963B97 /* Pods-BigBrainGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigBrainGram.release.xcconfig"; path = "Target Support Files/Pods-BigBrainGram/Pods-BigBrainGram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF57602A09991D046F5DC06 /* Pods_BigBrainGram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C00457C08AD4F9F0540D092 /* Pods_BigBrainGramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F527FE09B27BAB58CA32FAD7 /* Pods_BigBrainGram_BigBrainGramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A495B9A101EA6FF58309513 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6EEE9A6096536742F6299B6 /* Pods-BigBrainGram.debug.xcconfig */,
+				E119BD8D5799D2E2E0963B97 /* Pods-BigBrainGram.release.xcconfig */,
+				130009857C9A110E3EBF5689 /* Pods-BigBrainGram-BigBrainGramUITests.debug.xcconfig */,
+				D9B48F633A8A8F00D6249E39 /* Pods-BigBrainGram-BigBrainGramUITests.release.xcconfig */,
+				0980FC226198BF3154B41A8A /* Pods-BigBrainGramTests.debug.xcconfig */,
+				3648C8538A33D55593ED3308 /* Pods-BigBrainGramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE305311E50FB196C7F59971 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61B95E88D3D1467E853C23F0 /* Pods_BigBrainGram.framework */,
+				ACF036AF1431FE8C95A1E286 /* Pods_BigBrainGram_BigBrainGramUITests.framework */,
+				8048B6F77B354260B031D3B9 /* Pods_BigBrainGramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD45E2DC237FC6F900818848 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				CD45E2FE237FC6FA00818848 /* BigBrainGramTests */,
 				CD45E309237FC6FA00818848 /* BigBrainGramUITests */,
 				CD45E2E6237FC6F900818848 /* Products */,
+				1A495B9A101EA6FF58309513 /* Pods */,
+				AE305311E50FB196C7F59971 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +147,14 @@
 			children = (
 				CD45E2E8237FC6F900818848 /* AppDelegate.swift */,
 				CD45E2EA237FC6F900818848 /* SceneDelegate.swift */,
-				CD45E2EC237FC6F900818848 /* ViewController.swift */,
 				CD45E2EE237FC6F900818848 /* Main.storyboard */,
 				CD45E2F1237FC6FA00818848 /* Assets.xcassets */,
 				CD45E2F3237FC6FA00818848 /* LaunchScreen.storyboard */,
 				CD45E2F6237FC6FA00818848 /* Info.plist */,
+				CD42D6AC237FCC3400F05203 /* LoginViewController.swift */,
+				CD42D6AE237FCC3F00F05203 /* FeedViewController.swift */,
+				CD8C5FA1237FDF0D00719AF6 /* CameraViewController.swift */,
+				CD18D9B82382674C0060E878 /* PostCell.swift */,
 			);
 			path = BigBrainGram;
 			sourceTree = "<group>";
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD45E30F237FC6FA00818848 /* Build configuration list for PBXNativeTarget "BigBrainGram" */;
 			buildPhases = (
+				4EE242C82425115B6BE0A099 /* [CP] Check Pods Manifest.lock */,
 				CD45E2E1237FC6F900818848 /* Sources */,
 				CD45E2E2237FC6F900818848 /* Frameworks */,
 				CD45E2E3237FC6F900818848 /* Resources */,
+				C64E5B0BD62A4483F058A53B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD45E312237FC6FA00818848 /* Build configuration list for PBXNativeTarget "BigBrainGramTests" */;
 			buildPhases = (
+				811DA764AC488646A549C12B /* [CP] Check Pods Manifest.lock */,
 				CD45E2F7237FC6FA00818848 /* Sources */,
 				CD45E2F8237FC6FA00818848 /* Frameworks */,
 				CD45E2F9237FC6FA00818848 /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD45E315237FC6FA00818848 /* Build configuration list for PBXNativeTarget "BigBrainGramUITests" */;
 			buildPhases = (
+				2D8E0961FC3B69E5CBEED10F /* [CP] Check Pods Manifest.lock */,
 				CD45E302237FC6FA00818848 /* Sources */,
 				CD45E303237FC6FA00818848 /* Frameworks */,
 				CD45E304237FC6FA00818848 /* Resources */,
+				B88AA982CC52FB137CF1B3DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +308,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D8E0961FC3B69E5CBEED10F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigBrainGram-BigBrainGramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EE242C82425115B6BE0A099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigBrainGram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		811DA764AC488646A549C12B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigBrainGramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B88AA982CC52FB137CF1B3DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigBrainGram-BigBrainGramUITests/Pods-BigBrainGram-BigBrainGramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigBrainGram-BigBrainGramUITests/Pods-BigBrainGram-BigBrainGramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BigBrainGram-BigBrainGramUITests/Pods-BigBrainGram-BigBrainGramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C64E5B0BD62A4483F058A53B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigBrainGram/Pods-BigBrainGram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BigBrainGram/Pods-BigBrainGram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BigBrainGram/Pods-BigBrainGram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD45E2E1237FC6F900818848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD45E2ED237FC6F900818848 /* ViewController.swift in Sources */,
+				CD42D6AD237FCC3400F05203 /* LoginViewController.swift in Sources */,
+				CD8C5FA2237FDF0D00719AF6 /* CameraViewController.swift in Sources */,
 				CD45E2E9237FC6F900818848 /* AppDelegate.swift in Sources */,
+				CD42D6AF237FCC3F00F05203 /* FeedViewController.swift in Sources */,
 				CD45E2EB237FC6F900818848 /* SceneDelegate.swift in Sources */,
+				CD18D9B92382674C0060E878 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +592,11 @@
 		};
 		CD45E310237FC6FA00818848 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6EEE9A6096536742F6299B6 /* Pods-BigBrainGram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 823HJU587G;
 				INFOPLIST_FILE = BigBrainGram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +611,11 @@
 		};
 		CD45E311237FC6FA00818848 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E119BD8D5799D2E2E0963B97 /* Pods-BigBrainGram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 823HJU587G;
 				INFOPLIST_FILE = BigBrainGram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +630,7 @@
 		};
 		CD45E313237FC6FA00818848 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0980FC226198BF3154B41A8A /* Pods-BigBrainGramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +652,7 @@
 		};
 		CD45E314237FC6FA00818848 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3648C8538A33D55593ED3308 /* Pods-BigBrainGramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +674,7 @@
 		};
 		CD45E316237FC6FA00818848 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130009857C9A110E3EBF5689 /* Pods-BigBrainGram-BigBrainGramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +694,7 @@
 		};
 		CD45E317237FC6FA00818848 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B48F633A8A8F00D6249E39 /* Pods-BigBrainGram-BigBrainGramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
