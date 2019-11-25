@@ -30,6 +30,10 @@ class LoginViewController: UIViewController {
             }
         }
     }
+    @IBAction func onTap(_ sender: Any) {
+        view.endEditing(true)
+    }
+    
     @IBAction func onSignUp(_ sender: Any) {
         let user = PFUser()
         user.username = usernameField.text

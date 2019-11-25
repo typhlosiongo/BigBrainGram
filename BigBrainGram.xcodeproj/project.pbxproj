@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C00457C08AD4F9F0540D092 /* Pods_BigBrainGramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8048B6F77B354260B031D3B9 /* Pods_BigBrainGramTests.framework */; };
 		CD18D9B92382674C0060E878 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18D9B82382674C0060E878 /* PostCell.swift */; };
+		CD4171D2238BAA710022829B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4171D1238BAA710022829B /* CommentCell.swift */; };
 		CD42D6AD237FCC3400F05203 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42D6AC237FCC3400F05203 /* LoginViewController.swift */; };
 		CD42D6AF237FCC3F00F05203 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42D6AE237FCC3F00F05203 /* FeedViewController.swift */; };
 		CD45E2E9237FC6F900818848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45E2E8237FC6F900818848 /* AppDelegate.swift */; };
@@ -49,6 +50,7 @@
 		ACF036AF1431FE8C95A1E286 /* Pods_BigBrainGram_BigBrainGramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigBrainGram_BigBrainGramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EEE9A6096536742F6299B6 /* Pods-BigBrainGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigBrainGram.debug.xcconfig"; path = "Target Support Files/Pods-BigBrainGram/Pods-BigBrainGram.debug.xcconfig"; sourceTree = "<group>"; };
 		CD18D9B82382674C0060E878 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CD4171D1238BAA710022829B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		CD42D6AC237FCC3400F05203 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CD42D6AE237FCC3F00F05203 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CD45E2E5237FC6F900818848 /* BigBrainGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBrainGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +157,7 @@
 				CD42D6AE237FCC3F00F05203 /* FeedViewController.swift */,
 				CD8C5FA1237FDF0D00719AF6 /* CameraViewController.swift */,
 				CD18D9B82382674C0060E878 /* PostCell.swift */,
+				CD4171D1238BAA710022829B /* CommentCell.swift */,
 			);
 			path = BigBrainGram;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				CD42D6AF237FCC3F00F05203 /* FeedViewController.swift in Sources */,
 				CD45E2EB237FC6F900818848 /* SceneDelegate.swift in Sources */,
 				CD18D9B92382674C0060E878 /* PostCell.swift in Sources */,
+				CD4171D2238BAA710022829B /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

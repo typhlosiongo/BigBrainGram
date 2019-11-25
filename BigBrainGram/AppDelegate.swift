@@ -26,7 +26,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             configuration.server = "https://blooming-beach-51649.herokuapp.com/parse"
         })
     )
-        
+      //to redirect the root view controller
+        if PFUser.current() != nil {
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+            window?.rootViewController = feedNavigationController
+        }
         return true
     }
 
