@@ -23,6 +23,7 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://imgur.com/a/l0Umlqp' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://imgur.com/a/l0Umlqp
 # BigBrainGram - Part I
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos and view a global photos feed.
